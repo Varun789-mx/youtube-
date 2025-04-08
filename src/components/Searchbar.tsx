@@ -1,16 +1,15 @@
 export const Searchbar = () => {
     return <>
-        <div className="grid grid-cols-4 w-150 p-4 bg-yellow-500 justify-between">
-            <div className="h-9 rounded-l-3xl p-3 grid-cols-1">
-                <img src="https://img.icons8.com/?size=60&id=59878&format=png" />
+        <div className="flex w-150   justify-between pt-5 h-12">
+            <div className=" flex h-10 rounded-3xl p-0.5 w-145  bg-gray-800 ">
+                <img className="w-9 p-2 " src="https://img.icons8.com/?size=100&id=132&format=png" />
+                <input type="text" className="w-120 hover:border-solid border-2-blue" />
+                <img src="https://img.icons8.com/?size=100&id=132&format=png" className="w-10 p-2" />
+            </div>
 
-            </div>
-            <div className="grid-cols-2">
-                <input type="text" className=" bg-blue-500 w-124 h-10" />
-            </div>
-            <div className=" rounded-r-full bg-gray-500">
-                <img src="https://img.icons8.com/?size=60&id=59878&format=png" className="" />
-            </div>
+        
+                
+         
         </div>
     </>
 }
