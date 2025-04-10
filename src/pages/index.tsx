@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <Videogrid /> */}
+      <Videogrid />
     </>
   );
 }
